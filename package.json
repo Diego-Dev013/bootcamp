@@ -1,0 +1,22 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "Mi primer bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor src/ index.html 1234 --reload",
+    "lint": "oxlint src/",
+    "format": "oxfmt src/",
+    "build": "echo Comando reservado",
+    "deploy": "echo Comando reservado"
+  },
+  "keywords": [],
+  "author": "DiegoDev",
+  "license": "ISC",
+  "devDependencies": {
+    "oxfmt": "^0.74.0",
+    "oxlint": "^1.89.0",
+    "servor": "^4.0.2"
+  },
+  "type": "module"
+}
